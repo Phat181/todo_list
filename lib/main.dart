@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'TO DO',
       theme: ThemeData(
-        bottomSheetTheme: BottomSheetThemeData(backgroundColor: Colors.transparent),
+        bottomSheetTheme:
+            BottomSheetThemeData(backgroundColor: Colors.transparent),
         // This is the theme of your application.
         //
         // Try running your application with "flutter run". You'll see the
