@@ -6,7 +6,7 @@ class StartScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Color(0xffEAF0F9),
+        backgroundColor: Color.fromARGB(255, 255, 255, 255),
         body: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 40.0),
           child: Column(
@@ -75,6 +75,7 @@ class StartScreen extends StatelessWidget {
                     child: Text(
                       'Get Started',
                       style: TextStyle(
+                          fontStyle: ,
                           fontSize: 20.0,
                           color: Colors.white,
                           fontWeight: FontWeight.bold),
